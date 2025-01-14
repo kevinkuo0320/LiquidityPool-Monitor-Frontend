@@ -1,0 +1,1081 @@
+[
+  {
+    "timestamp": "2025-01-12T13:44:14.998Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.040812",
+    "tokenAmounts": {
+      "tokenA": "19.483239349",
+      "tokenB": "658.869802"
+    },
+    "fees": {
+      "tokenA": "0.77642712",
+      "tokenB": "149.036959"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:46:14.868Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.078590",
+    "tokenAmounts": {
+      "tokenA": "19.466926377",
+      "tokenB": "661.937615"
+    },
+    "fees": {
+      "tokenA": "0.776437935",
+      "tokenB": "149.040061"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:48:14.880Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.203265",
+    "tokenAmounts": {
+      "tokenA": "19.413125583",
+      "tokenB": "672.059746"
+    },
+    "fees": {
+      "tokenA": "0.776437937",
+      "tokenB": "149.043585"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:50:14.836Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.417978",
+    "tokenAmounts": {
+      "tokenA": "19.320596093",
+      "tokenB": "689.484029"
+    },
+    "fees": {
+      "tokenA": "0.776449131",
+      "tokenB": "149.051758"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:52:14.771Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.331953",
+    "tokenAmounts": {
+      "tokenA": "19.357649296",
+      "tokenB": "682.504133"
+    },
+    "fees": {
+      "tokenA": "0.776483234",
+      "tokenB": "149.055752"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:54:14.939Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.284217",
+    "tokenAmounts": {
+      "tokenA": "19.378221139",
+      "tokenB": "678.630289"
+    },
+    "fees": {
+      "tokenA": "0.776490451",
+      "tokenB": "149.055762"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:56:14.804Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.102816",
+    "tokenAmounts": {
+      "tokenA": "19.456468229",
+      "tokenB": "663.904696"
+    },
+    "fees": {
+      "tokenA": "0.776517972",
+      "tokenB": "149.055815"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T13:58:14.918Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.034181",
+    "tokenAmounts": {
+      "tokenA": "19.486103257",
+      "tokenB": "658.33128"
+    },
+    "fees": {
+      "tokenA": "0.776528867",
+      "tokenB": "149.055924"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:00:14.834Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.946513",
+    "tokenAmounts": {
+      "tokenA": "19.523980113",
+      "tokenB": "651.210797"
+    },
+    "fees": {
+      "tokenA": "0.776542263",
+      "tokenB": "149.055963"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:02:14.793Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.908447",
+    "tokenAmounts": {
+      "tokenA": "19.540434665",
+      "tokenB": "648.118535"
+    },
+    "fees": {
+      "tokenA": "0.776562018",
+      "tokenB": "149.0586"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:04:14.894Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.786983",
+    "tokenAmounts": {
+      "tokenA": "19.592972471",
+      "tokenB": "638.249429"
+    },
+    "fees": {
+      "tokenA": "0.776580309",
+      "tokenB": "149.0586"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:06:14.821Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.877280",
+    "tokenAmounts": {
+      "tokenA": "19.553910469",
+      "tokenB": "645.586527"
+    },
+    "fees": {
+      "tokenA": "0.7765815",
+      "tokenB": "149.061378"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:08:15.011Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.961646",
+    "tokenAmounts": {
+      "tokenA": "19.517440074",
+      "tokenB": "652.440024"
+    },
+    "fees": {
+      "tokenA": "0.776597215",
+      "tokenB": "149.066719"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:10:14.919Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.257712",
+    "tokenAmounts": {
+      "tokenA": "19.389647169",
+      "tokenB": "676.479099"
+    },
+    "fees": {
+      "tokenA": "0.776601943",
+      "tokenB": "149.075978"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:12:15.141Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.265841",
+    "tokenAmounts": {
+      "tokenA": "19.386142621",
+      "tokenB": "677.138872"
+    },
+    "fees": {
+      "tokenA": "0.776628473",
+      "tokenB": "149.0812"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:14:14.996Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.329140",
+    "tokenAmounts": {
+      "tokenA": "19.358861359",
+      "tokenB": "682.275865"
+    },
+    "fees": {
+      "tokenA": "0.776628473",
+      "tokenB": "149.082988"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:16:14.948Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.271489",
+    "tokenAmounts": {
+      "tokenA": "19.383707543",
+      "tokenB": "677.597321"
+    },
+    "fees": {
+      "tokenA": "0.776649786",
+      "tokenB": "149.085372"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:18:14.929Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.448981",
+    "tokenAmounts": {
+      "tokenA": "19.307248285",
+      "tokenB": "691.999203"
+    },
+    "fees": {
+      "tokenA": "0.776659192",
+      "tokenB": "149.092158"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:20:14.817Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.603993",
+    "tokenAmounts": {
+      "tokenA": "19.240561407",
+      "tokenB": "704.571445"
+    },
+    "fees": {
+      "tokenA": "0.776677481",
+      "tokenB": "149.099983"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:22:14.961Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.431726",
+    "tokenAmounts": {
+      "tokenA": "19.314676823",
+      "tokenB": "690.599367"
+    },
+    "fees": {
+      "tokenA": "0.776703284",
+      "tokenB": "149.099983"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:24:15.015Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.494385",
+    "tokenAmounts": {
+      "tokenA": "19.287707011",
+      "tokenB": "695.68218"
+    },
+    "fees": {
+      "tokenA": "0.776720031",
+      "tokenB": "149.10491"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:26:15.052Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.156749",
+    "tokenAmounts": {
+      "tokenA": "19.433192273",
+      "tokenB": "668.283596"
+    },
+    "fees": {
+      "tokenA": "0.776772282",
+      "tokenB": "149.105211"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:28:14.941Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.130451",
+    "tokenAmounts": {
+      "tokenA": "19.444540686",
+      "tokenB": "666.148465"
+    },
+    "fees": {
+      "tokenA": "0.776777042",
+      "tokenB": "149.105364"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:30:15.029Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.232579",
+    "tokenAmounts": {
+      "tokenA": "19.400483735",
+      "tokenB": "674.439168"
+    },
+    "fees": {
+      "tokenA": "0.776788641",
+      "tokenB": "149.110434"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:32:14.825Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.419251",
+    "tokenAmounts": {
+      "tokenA": "19.320048091",
+      "tokenB": "689.587283"
+    },
+    "fees": {
+      "tokenA": "0.776788641",
+      "tokenB": "149.115707"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:34:15.021Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.339073",
+    "tokenAmounts": {
+      "tokenA": "19.354581583",
+      "tokenB": "683.081893"
+    },
+    "fees": {
+      "tokenA": "0.776811105",
+      "tokenB": "149.117674"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:36:14.979Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.719042",
+    "tokenAmounts": {
+      "tokenA": "19.191119712",
+      "tokenB": "713.89919"
+    },
+    "fees": {
+      "tokenA": "0.77681111",
+      "tokenB": "149.128404"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:38:15.052Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.690048",
+    "tokenAmounts": {
+      "tokenA": "19.203575605",
+      "tokenB": "711.548706"
+    },
+    "fees": {
+      "tokenA": "0.776818249",
+      "tokenB": "149.128933"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:40:15.089Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.757966",
+    "tokenAmounts": {
+      "tokenA": "19.174402772",
+      "tokenB": "717.05432"
+    },
+    "fees": {
+      "tokenA": "0.776826425",
+      "tokenB": "149.132392"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:42:15.436Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.696461",
+    "tokenAmounts": {
+      "tokenA": "19.200820308",
+      "tokenB": "712.068612"
+    },
+    "fees": {
+      "tokenA": "0.776840493",
+      "tokenB": "149.133311"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:44:15.043Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.328548",
+    "tokenAmounts": {
+      "tokenA": "19.35911621",
+      "tokenB": "682.227869"
+    },
+    "fees": {
+      "tokenA": "0.776896838",
+      "tokenB": "149.133545"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:46:14.994Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.253270",
+    "tokenAmounts": {
+      "tokenA": "19.391562179",
+      "tokenB": "676.118588"
+    },
+    "fees": {
+      "tokenA": "0.776913872",
+      "tokenB": "149.134625"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:48:14.997Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "187.928869",
+    "tokenAmounts": {
+      "tokenA": "19.531606063",
+      "tokenB": "649.777594"
+    },
+    "fees": {
+      "tokenA": "0.77696748",
+      "tokenB": "149.135537"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:50:15.009Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.128310",
+    "tokenAmounts": {
+      "tokenA": "19.44546438",
+      "tokenB": "665.974691"
+    },
+    "fees": {
+      "tokenA": "0.7769706",
+      "tokenB": "149.141763"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:52:15.029Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.136556",
+    "tokenAmounts": {
+      "tokenA": "19.441905706",
+      "tokenB": "666.644193"
+    },
+    "fees": {
+      "tokenA": "0.776977914",
+      "tokenB": "149.143373"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:54:14.954Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.310143",
+    "tokenAmounts": {
+      "tokenA": "19.367047452",
+      "tokenB": "680.734263"
+    },
+    "fees": {
+      "tokenA": "0.776977914",
+      "tokenB": "149.148278"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:56:15.195Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.230387",
+    "tokenAmounts": {
+      "tokenA": "19.401428857",
+      "tokenB": "674.261267"
+    },
+    "fees": {
+      "tokenA": "0.776996231",
+      "tokenB": "149.149473"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T14:58:15.152Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.368322",
+    "tokenAmounts": {
+      "tokenA": "19.341980987",
+      "tokenB": "685.455261"
+    },
+    "fees": {
+      "tokenA": "0.777008913",
+      "tokenB": "149.155759"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:00:15.237Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.418577",
+    "tokenAmounts": {
+      "tokenA": "19.320338313",
+      "tokenB": "689.532599"
+    },
+    "fees": {
+      "tokenA": "0.777013329",
+      "tokenB": "149.158011"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:02:15.204Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.491857",
+    "tokenAmounts": {
+      "tokenA": "19.288794731",
+      "tokenB": "695.477152"
+    },
+    "fees": {
+      "tokenA": "0.777013329",
+      "tokenB": "149.16008"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:04:15.053Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.726747",
+    "tokenAmounts": {
+      "tokenA": "19.187810077",
+      "tokenB": "714.523793"
+    },
+    "fees": {
+      "tokenA": "0.777018893",
+      "tokenB": "149.167761"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:06:15.179Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.336682",
+    "tokenAmounts": {
+      "tokenA": "19.355611795",
+      "tokenB": "682.887865"
+    },
+    "fees": {
+      "tokenA": "0.777077312",
+      "tokenB": "149.167761"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:08:15.104Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.182502",
+    "tokenAmounts": {
+      "tokenA": "19.422081841",
+      "tokenB": "670.374242"
+    },
+    "fees": {
+      "tokenA": "0.777107799",
+      "tokenB": "149.169145"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:10:15.147Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.231826",
+    "tokenAmounts": {
+      "tokenA": "19.400808345",
+      "tokenB": "674.378066"
+    },
+    "fees": {
+      "tokenA": "0.77710853",
+      "tokenB": "149.170677"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:12:15.113Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.399518",
+    "tokenAmounts": {
+      "tokenA": "19.328545123",
+      "tokenB": "687.986362"
+    },
+    "fees": {
+      "tokenA": "0.777108531",
+      "tokenB": "149.175414"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:14:15.231Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.255145",
+    "tokenAmounts": {
+      "tokenA": "19.390753625",
+      "tokenB": "676.270802"
+    },
+    "fees": {
+      "tokenA": "0.777140163",
+      "tokenB": "149.177294"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:16:15.132Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.309264",
+    "tokenAmounts": {
+      "tokenA": "19.367426119",
+      "tokenB": "680.662956"
+    },
+    "fees": {
+      "tokenA": "0.777145236",
+      "tokenB": "149.179778"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:18:15.205Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "188.629297",
+    "tokenAmounts": {
+      "tokenA": "19.229683291",
+      "tokenB": "706.623238"
+    },
+    "fees": {
+      "tokenA": "0.777160168",
+      "tokenB": "149.191627"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:20:15.295Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.295288",
+    "tokenAmounts": {
+      "tokenA": "18.944160338",
+      "tokenB": "760.576226"
+    },
+    "fees": {
+      "tokenA": "0.777160168",
+      "tokenB": "149.21041"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:22:15.077Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.668543",
+    "tokenAmounts": {
+      "tokenA": "18.784796765",
+      "tokenB": "790.772727"
+    },
+    "fees": {
+      "tokenA": "0.777161164",
+      "tokenB": "149.221111"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:24:15.163Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.930577",
+    "tokenAmounts": {
+      "tokenA": "18.67320046",
+      "tokenB": "811.953652"
+    },
+    "fees": {
+      "tokenA": "0.777205348",
+      "tokenB": "149.236877"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:26:15.158Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.139134",
+    "tokenAmounts": {
+      "tokenA": "18.5845438",
+      "tokenB": "828.801505"
+    },
+    "fees": {
+      "tokenA": "0.777233819",
+      "tokenB": "149.248149"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:28:15.303Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.888287",
+    "tokenAmounts": {
+      "tokenA": "18.69119521",
+      "tokenB": "808.536279"
+    },
+    "fees": {
+      "tokenA": "0.777270992",
+      "tokenB": "149.248157"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:30:15.292Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.321048",
+    "tokenAmounts": {
+      "tokenA": "18.507332357",
+      "tokenB": "843.489443"
+    },
+    "fees": {
+      "tokenA": "0.777271663",
+      "tokenB": "149.260453"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:32:15.241Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.998684",
+    "tokenAmounts": {
+      "tokenA": "18.644232569",
+      "tokenB": "817.456526"
+    },
+    "fees": {
+      "tokenA": "0.777345903",
+      "tokenB": "149.265512"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:34:15.119Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.732818",
+    "tokenAmounts": {
+      "tokenA": "18.757401505",
+      "tokenB": "795.969626"
+    },
+    "fees": {
+      "tokenA": "0.777387107",
+      "tokenB": "149.265855"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:36:15.284Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.470394",
+    "tokenAmounts": {
+      "tokenA": "18.869339065",
+      "tokenB": "774.74609"
+    },
+    "fees": {
+      "tokenA": "0.777426847",
+      "tokenB": "149.266001"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:38:15.269Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.739413",
+    "tokenAmounts": {
+      "tokenA": "18.754591212",
+      "tokenB": "796.50284"
+    },
+    "fees": {
+      "tokenA": "0.777434883",
+      "tokenB": "149.275098"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:40:15.348Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.926613",
+    "tokenAmounts": {
+      "tokenA": "18.674886996",
+      "tokenB": "811.63333"
+    },
+    "fees": {
+      "tokenA": "0.777434883",
+      "tokenB": "149.280366"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:42:15.236Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.001583",
+    "tokenAmounts": {
+      "tokenA": "18.642999664",
+      "tokenB": "817.690778"
+    },
+    "fees": {
+      "tokenA": "0.777451135",
+      "tokenB": "149.285561"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:44:15.410Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.119503",
+    "tokenAmounts": {
+      "tokenA": "18.592882866",
+      "tokenB": "827.216004"
+    },
+    "fees": {
+      "tokenA": "0.777451296",
+      "tokenB": "149.288908"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:46:15.368Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.170446",
+    "tokenAmounts": {
+      "tokenA": "18.571246184",
+      "tokenB": "831.33011"
+    },
+    "fees": {
+      "tokenA": "0.777466021",
+      "tokenB": "149.29314"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:48:15.339Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.384663",
+    "tokenAmounts": {
+      "tokenA": "18.480357843",
+      "tokenB": "848.624118"
+    },
+    "fees": {
+      "tokenA": "0.777466021",
+      "tokenB": "149.299161"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:50:15.713Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.421247",
+    "tokenAmounts": {
+      "tokenA": "18.464851315",
+      "tokenB": "851.576607"
+    },
+    "fees": {
+      "tokenA": "0.777469766",
+      "tokenB": "149.300901"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:52:15.401Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.837470",
+    "tokenAmounts": {
+      "tokenA": "18.288744492",
+      "tokenB": "885.147718"
+    },
+    "fees": {
+      "tokenA": "0.777471605",
+      "tokenB": "149.312939"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:54:15.288Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.681783",
+    "tokenAmounts": {
+      "tokenA": "18.354548933",
+      "tokenB": "872.594888"
+    },
+    "fees": {
+      "tokenA": "0.777508699",
+      "tokenB": "149.315646"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:56:15.495Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.625655",
+    "tokenAmounts": {
+      "tokenA": "18.378292867",
+      "tokenB": "868.068019"
+    },
+    "fees": {
+      "tokenA": "0.77751698",
+      "tokenB": "149.315648"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T15:58:15.598Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.399463",
+    "tokenAmounts": {
+      "tokenA": "18.474084006",
+      "tokenB": "849.818607"
+    },
+    "fees": {
+      "tokenA": "0.777553719",
+      "tokenB": "149.316294"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:00:15.567Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.449213",
+    "tokenAmounts": {
+      "tokenA": "18.4530007",
+      "tokenB": "853.833382"
+    },
+    "fees": {
+      "tokenA": "0.777554511",
+      "tokenB": "149.317843"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:02:16.025Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.226950",
+    "tokenAmounts": {
+      "tokenA": "18.547257469",
+      "tokenB": "835.892732"
+    },
+    "fees": {
+      "tokenA": "0.777594049",
+      "tokenB": "149.319123"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:04:15.368Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.094078",
+    "tokenAmounts": {
+      "tokenA": "18.603684506",
+      "tokenB": "825.162538"
+    },
+    "fees": {
+      "tokenA": "0.777616029",
+      "tokenB": "149.319567"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:06:15.488Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.880752",
+    "tokenAmounts": {
+      "tokenA": "18.694402117",
+      "tokenB": "807.927337"
+    },
+    "fees": {
+      "tokenA": "0.777650048",
+      "tokenB": "149.32003"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:08:15.611Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "190.060048",
+    "tokenAmounts": {
+      "tokenA": "18.618145779",
+      "tokenB": "822.413782"
+    },
+    "fees": {
+      "tokenA": "0.777679585",
+      "tokenB": "149.330681"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:10:15.429Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.858529",
+    "tokenAmounts": {
+      "tokenA": "18.703861425",
+      "tokenB": "806.131301"
+    },
+    "fees": {
+      "tokenA": "0.777709556",
+      "tokenB": "149.330706"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:12:15.477Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.827661",
+    "tokenAmounts": {
+      "tokenA": "18.717003223",
+      "tokenB": "803.636422"
+    },
+    "fees": {
+      "tokenA": "0.777722009",
+      "tokenB": "149.332201"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:14:15.503Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.626324",
+    "tokenAmounts": {
+      "tokenA": "18.802798601",
+      "tokenB": "787.358725"
+    },
+    "fees": {
+      "tokenA": "0.777761017",
+      "tokenB": "149.333934"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:16:15.632Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.613734",
+    "tokenAmounts": {
+      "tokenA": "18.808168186",
+      "tokenB": "786.340544"
+    },
+    "fees": {
+      "tokenA": "0.777769525",
+      "tokenB": "149.335193"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:18:15.493Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.432211",
+    "tokenAmounts": {
+      "tokenA": "18.885645468",
+      "tokenB": "771.656821"
+    },
+    "fees": {
+      "tokenA": "0.777807298",
+      "tokenB": "149.33724"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:20:15.579Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.190136",
+    "tokenAmounts": {
+      "tokenA": "18.989140774",
+      "tokenB": "752.064007"
+    },
+    "fees": {
+      "tokenA": "0.777847561",
+      "tokenB": "149.338041"
+    }
+  },
+  {
+    "timestamp": "2025-01-12T16:22:15.400Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "189.207742",
+    "tokenAmounts": {
+      "tokenA": "18.981606675",
+      "tokenB": "753.489451"
+    },
+    "fees": {
+      "tokenA": "0.777862395",
+      "tokenB": "149.341344"
+    }
+  },
+  {
+    "timestamp": "2025-01-13T14:00:32.957Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "175.634721",
+    "tokenAmounts": {
+      "tokenA": "23.064360512",
+      "tokenB": "0"
+    },
+    "fees": {
+      "tokenA": "0.795414812",
+      "tokenB": "152.337476"
+    }
+  },
+  {
+    "timestamp": "2025-01-13T14:19:48.662Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "175.787252",
+    "tokenAmounts": {
+      "tokenA": "23.064360512",
+      "tokenB": "0"
+    },
+    "fees": {
+      "tokenA": "0.795414812",
+      "tokenB": "152.337476"
+    }
+  },
+  {
+    "timestamp": "2025-01-14T13:02:04.900Z",
+    "positionAddress": "4XEmzQLgdnYihjp8pzyRb2AhiTgzHVUZyPJzUAYWkwwK",
+    "whirlpoolPrice": "186.038561",
+    "tokenAmounts": {
+      "tokenA": "20.35492632",
+      "tokenB": "495.83208"
+    },
+    "fees": {
+      "tokenA": "0.810821551",
+      "tokenB": "155.347744"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+    // Add other rules you want to disable
+  }
+} 
