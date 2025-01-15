@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model position_records {
+  id               Int      @id @default(autoincrement())
+  timestamp        DateTime @db.Timestamp(6)
+  position_address String
+  whirlpool_price  String
+  token_a_amount   String
+  token_b_amount   String
+  token_a_fees     String
+  token_b_fees     String
+}

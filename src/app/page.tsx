@@ -14,18 +14,29 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 
 // Add interface for data structure
+// interface WhirlpoolData {
+//   positionAddress: string;
+//   timestamp: number;
+//   whirlpoolPrice: number;
+//   tokenAmounts: {
+//     tokenA: number;
+//     tokenB: number;
+//   };
+//   fees: {
+//     tokenA: number;
+//     tokenB: number;
+//   };
+// }
+
 interface WhirlpoolData {
-  positionAddress: string;
-  timestamp: number;
-  whirlpoolPrice: number;
-  tokenAmounts: {
-    tokenA: number;
-    tokenB: number;
-  };
-  fees: {
-    tokenA: number;
-    tokenB: number;
-  };
+  id: number
+  timestamp: string
+  position_address: string
+  whirlpool_price: string
+  token_a_amount: string
+  token_b_amount: string
+  token_a_fees: string
+  token_b_fees: string
 }
 
 const formatDateTime = (timestamp: number) => {
@@ -34,37 +45,73 @@ const formatDateTime = (timestamp: number) => {
 
 const WhirlpoolDashboard = () => {
   // Update state definitions with proper types
-  const [data, setData] = useState<WhirlpoolData[]>([]);
+  const [poolData, setPoolData] = useState<WhirlpoolData[]>([]);
   const [selectedPosition, setSelectedPosition] = useState<string | null>(null);
   const [positions, setPositions] = useState<string[]>([]);
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
+    // useEffect(() => {
+    //     // Disable for a single line
+    //     // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    //     const loadData = async () => {
+
+    //     // Or disable for a block
+    //     /* eslint-disable @typescript-eslint/no-explicit-any */
+    //     try {
+    //         const response = await fetch('/whirlpool_monitoring_data.json');
+    //         const rawData = await response.json() as WhirlpoolData[];
+    //         setData(rawData);
+    //         const uniquePositions = [...new Set(rawData.map(item => item.positionAddress))];
+    //         setPositions(uniquePositions);
+    //         setSelectedPosition(uniquePositions[0]);
+    //     } catch (error) {
+    //         console.error('Error loading data:', error);
+    //     }
+    //     /* eslint-enable @typescript-eslint/no-explicit-any */
+    //     };
+
+    //     loadData();
+    //     const interval = setInterval(loadData, 300000);
+    //     return () => clearInterval(interval);
+    // }, []);
     useEffect(() => {
-        // Disable for a single line
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const loadData = async () => {
-
-        // Or disable for a block
-        /* eslint-disable @typescript-eslint/no-explicit-any */
-        try {
-            const response = await fetch('/whirlpool_monitoring_data.json');
-            const rawData = await response.json() as WhirlpoolData[];
-            setData(rawData);
-            const uniquePositions = [...new Set(rawData.map(item => item.positionAddress))];
-            setPositions(uniquePositions);
-            setSelectedPosition(uniquePositions[0]);
-        } catch (error) {
-            console.error('Error loading data:', error);
-        }
-        /* eslint-enable @typescript-eslint/no-explicit-any */
-        };
-
-        loadData();
-        const interval = setInterval(loadData, 300000);
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/whirlpool')
+        if (!response.ok) throw new Error('Failed to fetch data')
+        const rawData = await response.json();
+        setPoolData(rawData)
+        setError(null)
+        const uniquePositions = [...new Set(rawData.map((item: WhirlpoolData) => item.position_address))];
+        setPositions(uniquePositions as string[]);
+        setSelectedPosition(uniquePositions[0] as string);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred')
+      } finally {
+        setLoading(false)
+      }
+    };
+    fetchData()
+    const interval = setInterval(fetchData, 300000);
         return () => clearInterval(interval);
     }, []);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const filteredData = data.filter((item: any) => item.positionAddress === selectedPosition);
+  
+    // useEffect(() => {
+    //   fetchData()
+      
+    //   // Optional: Set up auto-refresh every minute
+    //   const interval = setInterval(fetchData, 60000)
+    //   return () => clearInterval(interval)
+    // }, [])
 
+  
+    
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const filteredData = poolData.filter((item: any) => item.position_address === selectedPosition);
+  if (loading) return <div>Loading...</div>
+  if (error) return <div>Error: {error}</div>
+  if (!poolData.length) return <div>No data available</div>
   return (
     <div className="p-6 space-y-6">
       <div className="flex justify-between items-center">
@@ -86,7 +133,7 @@ const WhirlpoolDashboard = () => {
       </div>
 
               {/* Latest Stats Card */}
-              <Card>
+      <Card>
           <CardHeader>
             <CardTitle>Latest Statistics</CardTitle>
           </CardHeader>
@@ -97,7 +144,8 @@ const WhirlpoolDashboard = () => {
                   <div>
                     <p className="text-sm text-gray-500">Current Price</p>
                     <p className="text-lg font-bold">
-                      {Number(filteredData[filteredData.length - 1].whirlpoolPrice).toFixed(4)}
+                    
+                      {Number(filteredData[filteredData.length - 1].whirlpool_price).toFixed(4)}
                     </p>
                   </div>
                   <div>
@@ -109,30 +157,30 @@ const WhirlpoolDashboard = () => {
                   <div>
                     <p className="text-sm text-gray-500">Token A (SOL) Amount</p>
                     <p className="text-lg font-bold">
-                      {Number(filteredData[filteredData.length - 1].tokenAmounts.tokenA).toFixed(4)}
+                      {Number(filteredData[filteredData.length - 1].token_a_amount).toFixed(4)}
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Token B (USDC) Amount</p>
                     <p className="text-lg font-bold">
-                      {Number(filteredData[filteredData.length - 1].tokenAmounts.tokenB).toFixed(4)}
+                      {Number(filteredData[filteredData.length - 1].token_b_amount).toFixed(4)}
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">LP Position Value</p>
                     <p className="text-lg font-bold">
-                      ${Number(Number(filteredData[filteredData.length - 1].tokenAmounts.tokenA) 
-                      * Number(filteredData[filteredData.length - 1].whirlpoolPrice)
-                      + Number(filteredData[filteredData.length - 1].tokenAmounts.tokenB)
+                      ${Number(Number(filteredData[filteredData.length - 1].token_a_amount) 
+                      * Number(filteredData[filteredData.length - 1].whirlpool_price)
+                      + Number(filteredData[filteredData.length - 1].token_b_amount)
                        ).toFixed(2)}
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Pending Yield</p>
                     <p className="text-lg font-bold">
-                      ${Number(Number(filteredData[filteredData.length - 1].fees.tokenA) 
-                      * Number(filteredData[filteredData.length - 1].whirlpoolPrice) 
-                      + Number(filteredData[filteredData.length - 1].fees.tokenB)
+                      ${Number(Number(filteredData[filteredData.length - 1].token_a_fees) 
+                      * Number(filteredData[filteredData.length - 1].whirlpool_price) 
+                      + Number(filteredData[filteredData.length - 1].token_b_fees)
                        ).toFixed(2)}
                     </p>
                   </div>
@@ -140,7 +188,7 @@ const WhirlpoolDashboard = () => {
               </div>
             )}
           </CardContent>
-        </Card>
+      </Card>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Price Chart */}
@@ -167,7 +215,7 @@ const WhirlpoolDashboard = () => {
                   <Legend />
                   <Line 
                     type="monotone" 
-                    dataKey="whirlpoolPrice" 
+                    dataKey="whirlpool_price" 
                     stroke="#8884d8" 
                     name="Price (SOL)"
                   />
@@ -202,7 +250,8 @@ const WhirlpoolDashboard = () => {
                   <Line 
                     type="monotone" 
                     dataKey={(data) => {
-                      return Number(data.tokenAmounts.tokenA) * Number(data.whirlpoolPrice) + Number(data.tokenAmounts.tokenB);
+                      return Number(data.token_a_amount) * 
+                      Number(data.whirlpool_price) + Number(data.token_b_amount);
                     }}
                     stroke="#82ca9d" 
                     name="Total Value"
@@ -237,13 +286,13 @@ const WhirlpoolDashboard = () => {
                   <Legend />
                   <Line 
                     type="monotone" 
-                    dataKey="tokenAmounts.tokenA" 
+                    dataKey="token_a_amount" 
                     stroke="#82ca9d" 
                     name="Token A"
                   />
                   <Line 
                     type="monotone" 
-                    dataKey="tokenAmounts.tokenB" 
+                    dataKey="token_b_amount" 
                     stroke="#ffc658" 
                     name="Token B"
                   />
@@ -275,21 +324,21 @@ const WhirlpoolDashboard = () => {
                   <Legend />
                   <Line 
                     type="monotone" 
-                    dataKey="fees.tokenA" 
+                    dataKey="token_a_fees" 
                     stroke="#ff7300" 
                     name="Fee Token A"
                   />
                   <Line 
                     type="monotone" 
-                    dataKey="fees.tokenB" 
+                    dataKey="token_b_fees" 
                     stroke="#0088fe" 
                     name="Fee Token B"
                   />
                   <Line 
                     type="monotone" 
                     dataKey={(data) => {
-                      return Number(data.fees.tokenA) * Number(data.whirlpoolPrice) 
-                      + Number(data.fees.tokenB);
+                      return Number(data.token_a_fees) * Number(data.whirlpool_price) 
+                      + Number(data.token_b_fees);
                     }}
                     stroke="#82ca9d" 
                     name="Total Value"
